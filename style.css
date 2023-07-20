@@ -1,0 +1,96 @@
+html{
+scroll-behavior: smooth;
+}
+body{
+    background-color: lightblue; 
+}
+
+
+
+/* ---css for calculator-- */
+.section{
+    margin-top: 40px;
+
+}
+.container{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col-1{
+    flex-basis: 50%;
+}
+.col-2{
+    flex-basis: 45%;
+}
+
+
+.form-group{
+    margin-top: 30px;
+}
+.form-group .col-1{
+    margin-left: 10px;
+}
+button {
+    background-color: green;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.calc-result .row{
+    margin-top: 10px;
+}
+#net{
+    font-weight: bold;
+}
+.free-section{
+    margin: 40px ;
+   
+}
+#paye-results {
+    display: none;
+}
+#salary-input{
+    width: 50%;
+    height: 30px;
+    border-radius: 8px;
+    border-color: transparent;
+}
+#benefits-input{
+    width: 50%;
+    height: 30px;
+    border-radius: 8px;
+    border-color: transparent;
+}
+
+/* css for responsiveness */
+@media only screen and (max-width: 600px){
+    img{
+        height: 400px;
+    }
+    button {
+        background-color: green;
+        border: none;
+        color: white;
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
